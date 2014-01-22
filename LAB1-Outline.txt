@@ -29,10 +29,7 @@ int main(int argc, char **argv){
 	
 	mouse controls
 	
-	never ending loop 
-	
-	in loop draw polygons
-	
+	draw polygons
 	
 	return 0;
 }
