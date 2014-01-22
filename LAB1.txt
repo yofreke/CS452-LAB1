@@ -4,9 +4,9 @@ Create and draw three objects.
 Examples are sphere, star, points (at least 1500), square, triangle, trapezoid, lines (at least 6), any kind of polygon, and etc. Stick with 2D.
 Use mouse controls: left click cycles through drawing the different objects and right click to exit the program.
 
-Use different GLenum modes aka gl primitives along with GL_QUAD and etc.
+Use different GLenum modes aka OpenGL primitives along with GL_QUADS and etc.
 
-Theme for the Course
+Theme for the Course:
 "When in Doubt Google It!"
 
 Good Luck.
