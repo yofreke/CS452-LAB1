@@ -5,4 +5,4 @@ LAB1 Due next Tuesday Jan. 28
 
 Due Date is flexible contact me if you need an extension.
 
-TO use the header files you need freeglut installed. 
+To include the header files you need freeglut and glew installed. 
