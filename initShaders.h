@@ -110,12 +110,12 @@ GLuint createProgram(const vector<GLuint> shadeList){
   
   for(GLuint i=0;i<shadeList.size();i++){glAttachShader(program,shadeList[i]);}//attaches shaders to program
   
-  glBindAttribLocation(program, 0, "position");//binds the location an attribute to a program
-  glBindAttribLocation(program, 1, "position");//binds the location an attribute to a program
-  glBindAttribLocation(program, 2, "position");//binds the location an attribute to a program
-  glBindAttribLocation(program, 3, "position");//binds the location an attribute to a program
-  glBindAttribLocation(program, 4, "position");//binds the location an attribute to a program
-  glBindAttribLocation(program, 5, "position");//binds the location an attribute to a program
+    glBindAttribLocation(program, 0, "position");//binds the location an attribute to a program
+//  glBindAttribLocation(program, 1, "position");//binds the location an attribute to a program
+//  glBindAttribLocation(program, 2, "position");//binds the location an attribute to a program
+//  glBindAttribLocation(program, 3, "position");//binds the location an attribute to a program
+//  glBindAttribLocation(program, 4, "position");//binds the location an attribute to a program
+//  glBindAttribLocation(program, 5, "position");//binds the location an attribute to a program
   
   glLinkProgram(program);//links program to your program //weird
   
